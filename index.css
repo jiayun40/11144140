@@ -89,7 +89,8 @@ footer {
 }
 
 .card_2 {
-
+    display: flex;
+    width: 1080px;
     background-color: #EBD6D6;
     border-radius: 10px;
 }
@@ -101,14 +102,15 @@ footer {
 }
 
 .skill {
-
+    background-color: #EBD6D6;
     justify-content: space-between;
     align-items: center;
-    padding: 300px 500px;
+    padding: 30px 50px;
+    border-radius: 10px;
 }
 
 .skill div {
-    display: flex;
+
     width: 300px;
     text-align: center;
 }
@@ -138,21 +140,22 @@ footer {
     background-size: cover;
 }
 
-.exp {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 100px 100px;
-}
+
 
 .exp div {
     width: 300px;
     text-align: center;
 }
 
-.exp img {
+.c-exp {
+    width: 500px;
+    padding: 10px 6px;
+}
+
+.c-exp exp_img {
     width: 100%;
     border-radius: 10px;
+
 }
 
 .exp h3 {
