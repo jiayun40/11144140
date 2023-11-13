@@ -1,0 +1,183 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #ADADAD;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    line-height: 80px;
+
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ADADAD;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.a {
+    display: flex;
+    font-family: 微軟正黑體;
+}
+
+.a img {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.b {
+    width: 50%;
+    background-color: #EBD6D6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "微軟正黑體"
+}
+
+.b h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.b p {
+    text-align: center;
+    line-height: 1em;
+    font-size: 18px;
+    font-family: "微軟正黑體"
+
+
+
+}
+
+.card_2 {
+
+    background-color: #EBD6D6;
+    border-radius: 10px;
+}
+
+.right {
+    float: right;
+    padding-right: 0px;
+
+}
+
+.skill {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 300px 500px;
+}
+
+.skill div {
+    display: flex;
+    width: 300px;
+    text-align: center;
+}
+
+.skill img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.skill h3 {
+    font-size: 150px;
+    font-family: 微軟正黑體;
+    margin: 80px 0;
+    padding: 10px;
+
+}
+
+.skill p {
+    font-size: 12px;
+}
+
+.card {
+    background-color: #cb9090;
+    padding: 50px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.exp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 100px;
+}
+
+.exp div {
+    width: 300px;
+    text-align: center;
+}
+
+.exp img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.exp h3 {
+    font-size: 100px;
+    margin: 80px 0;
+    padding: 10px;
+}
+
+.exp p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.project p {
+    font-size: 18px;
+    font-family: 微軟正黑體;
+    margin: 15px;
+    line-height: 1.6em;
+    align-items: center;
+
+}
+
+.project h2 {
+    font-size: 22px;
+    font-family: 微軟正黑體;
+    margin: 15px;
+    align-items: center;
+}
