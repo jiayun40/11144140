@@ -16,6 +16,7 @@ h1 {
     left: 200px;
     top: 0;
     line-height: 80px;
+    font-size: 40px;
 
 }
 
@@ -44,11 +45,11 @@ header a:hover {
 footer {
     background-color: #ADADAD;
     color: white;
-    height: 60px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -83,9 +84,32 @@ footer {
     line-height: 1em;
     font-size: 18px;
     font-family: "微軟正黑體"
+}
 
+.LINE {
+    border-radius: 25px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 80%;
+}
 
+.IG {
+    border-radius: 25px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 85%;
+}
 
+.GMAIL {
+    display: flex;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 90%;
 }
 
 .card_2 {
@@ -93,6 +117,7 @@ footer {
     width: 1080px;
     background-color: #EBD6D6;
     border-radius: 10px;
+    top: 10px;
 }
 
 .right {
@@ -120,11 +145,11 @@ footer {
     border-radius: 10px;
 }
 
-.skill h3 {
-    font-size: 150px;
+.card h3 {
+    font-size: 25px;
     font-family: 微軟正黑體;
-    margin: 80px 0;
-    padding: 10px;
+
+
 
 }
 
@@ -150,18 +175,16 @@ footer {
 .c-exp {
     width: 500px;
     padding: 10px 6px;
+    text-align: center;
 }
 
 .c-exp exp_img {
     width: 100%;
     border-radius: 10px;
-
 }
 
 .exp h3 {
-    font-size: 100px;
-    margin: 80px 0;
-    padding: 10px;
+    font-size: 25px;
 }
 
 .exp p {
